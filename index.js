@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration - replace these with your actual values
-const BOT_TOKEN = '8234186534:AAF7xNj7g3dYRJn13LBb7zsfkvIakByxuSg';
+const BOT_TOKEN = '8536113611:AAEjQdw8GjISNG5UpuN4U6MddP2n5T9bf_0';
 const ADMIN_ID = '7787131118'; // Your Telegram user ID as string
 
 // Initialize JSON files if they don't exist
@@ -366,4 +366,5 @@ bot.launch()
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
+
 
